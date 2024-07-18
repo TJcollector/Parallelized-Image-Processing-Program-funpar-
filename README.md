@@ -3,7 +3,7 @@
 
 **How to use (step  by step tutorial):**
 
-1. Please, go to the main file where every files with different functions will all be run there.
+1. Please, go to the main file where every files with different functions will all be run there. //main file is located in /project/src/main.rs
 2. Put in your picture path in the variable 's' so that the program can access and begin to add filters.
 3. Click the run button and run the main file if you are using an editor or compile and run if you are using terminal.
 4. It may take a moment to process every filters in one go, but all the modified picture should be outside the folder 'src'.
