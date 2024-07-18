@@ -9,7 +9,14 @@
 4. It may take a moment to process every filters in one go, but all the modified picture should be outside the folder 'src'.
 5. If you want to intensify or change the level in each filters, you can also do so by changing the value of 'blur_radius' for blur, 'brightening_factor'for brighten, and 'darkening_factor' for darken.
 
-**Evaluation and Results:**
+## Evaluation:
+**Results/Objective**:
+1. Blur Function -> Smooth the input image by averageing all the neighbor pixels colors 
+2. Sharpen Function -> Enhance the edges and fine details in the input image
+3. Darken Function -> Reduce the brightness of the input image
+4. Brighten Function -> Increase the brightness of the input image
+_____________________________________________________________________________________________________________________________________________
+### Functions Performance:
 1. Performance: **Blur Function**
 Algorithm:
 The blur function involves iterating over each pixel and considering its neighboring pixels within a specified blur_radius.
